@@ -15,17 +15,29 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+# Security settings
+SECURE_HSTS_SECONDS = 31536000  # 1 year
+SECURE_SSL_REDIRECT = True
+SECURE_HSTS_RELOAD=True
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
+SECURE_HSTS_INCLUDE_SUBDOMAINS=True
+
 
 # Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
+SECURE_HSTS_PRELOAD=True
+# https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-=39@+4binf72s5g-!dpjnmh#i)1vo)^#cepwk6uege6-s=gpuy'
+
+# SECRET_KEY = 'django-insecure-=39@+4binf72s5g-!dpjnmh#i)1vo)^#cepwk6uege6-s=gpuy'
+SECRET_KEY = '(qwerty1234###--1234qwerty@@@!!!)^vonobruj0 rt9u9479840'  # Generate a new, secure key
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://django-todolist-app.vercel.app/',
+                  '.vercel.app']
 
 
 # Application definition
