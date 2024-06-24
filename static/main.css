@@ -1,0 +1,226 @@
+body {
+  padding-top: 50px;
+  background-image: url("background 5.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: "Nunito", sans-serif;
+}
+body .maxcontainer {
+  max-width: 550px;
+  margin: auto;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  -webkit-backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
+  box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.21);
+}
+
+.header-bar {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding-left: 20px;
+  padding-top: 20px;
+  border-radius: 5px 5px 0 0;
+}
+.header-bar a {
+  text-decoration: none;
+  color: white;
+}
+.header-bar .condition {
+  padding-right: 20px;
+}
+.header-bar .condition a {
+  text-decoration: none;
+  color: white;
+}
+
+.task-form {
+  margin-top: 20px;
+  padding: 20px;
+  display: flex;
+}
+.task-form input[type=text],
+.task-form input[type=password],
+.task-form textarea {
+  border: 1px solid #EB796F;
+  border-radius: 5px;
+  padding: 10px;
+  width: 95%;
+}
+.task-form label {
+  display: block;
+}
+.task-form .button {
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 12px;
+  border-radius: 8px;
+  width: 480px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.search-add-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.search-add-wrapper form {
+  margin-top: 5px;
+  display: flex;
+}
+.search-add-wrapper form input[type=text],
+.search-add-wrapper form input[type=password],
+.search-add-wrapper form textarea {
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  width: 90%;
+}
+.search-add-wrapper form label {
+  padding: 10px !important;
+  display: block;
+}
+.search-add-wrapper form .button {
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.search-add-wrapper #add {
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+  text-shadow: 1px 1px whitesmoke;
+}
+
+.task-items-wrapper .task-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-top: 1px solid rgb(201, 201, 201);
+}
+.task-items-wrapper .task-wrapper .task-title {
+  display: flex;
+}
+.task-items-wrapper .task-wrapper .task-title .task-complete-icon {
+  height: 20px;
+  width: 20px;
+  background-color: rgb(105, 192, 105);
+  border-radius: 50%;
+}
+.task-items-wrapper .task-wrapper .delete-link {
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 0px;
+}
+.task-items-wrapper .task-wrapper a {
+  text-decoration: none;
+  margin-left: 10px;
+  color: rgb(255, 255, 255);
+  font-weight: 500px;
+}
+.task-items-wrapper .task-wrapper .task-title .task-incomplete-icon {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: rgb(218, 218, 218);
+}
+
+.card-delete-body {
+  padding: 20px;
+}
+.card-delete-body .button {
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  width: 500px;
+}
+
+.card-login-body .login-body {
+  margin-top: 5px;
+  padding: 20px;
+  display: flex;
+}
+.card-login-body .login-body input[type=text],
+.card-login-body .login-body input[type=password],
+.card-login-body .login-body textarea {
+  border: 1px solid #EB796F;
+  border-radius: 5px;
+  padding: 10px;
+  width: 95%;
+}
+.card-login-body .login-body label {
+  display: block;
+}
+.card-login-body .login-body .button {
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  width: 480px;
+}
+.card-login-body .register {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.card-login-body .register a {
+  text-decoration: none;
+  color: #ffffff;
+  padding-left: 10px;
+}
+
+.card-register-body {
+  padding: 20px;
+}
+.card-register-body .register-body form {
+  margin-top: 5px;
+}
+.card-register-body .register-body form input[type=text],
+.card-register-body .register-body form input[type=password],
+.card-register-body .register-body form textarea {
+  border: 1px solid #EB796F;
+  border-radius: 5px;
+  padding: 10px;
+  width: 90%;
+}
+.card-register-body .register-body form label {
+  display: block;
+  margin-top: 20px;
+}
+.card-register-body .register-body form .button {
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  color: #ffffff;
+  padding: 10px;
+  font-size: 12px;
+  border-radius: 8px;
+  width: 480px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 20px;
+}
+.card-register-body p a {
+  text-decoration: none;
+  color: #ffffff;
+  padding-left: 5px;
+}/*# sourceMappingURL=main.css.map */
