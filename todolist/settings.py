@@ -38,7 +38,7 @@ SECURE_HSTS_PRELOAD=True
 
 # SECRET_KEY = 'django-insecure-=39@+4binf72s5g-!dpjnmh#i)1vo)^#cepwk6uege6-s=gpuy'
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', get_random_secret_key())
-# YM52pv3CZ3zDyLkq70y_H3XycDZhcdObI1XXZ-_MRvaOwzRhvSeAa6SNb8C4jrEtiIQ
+# lAOtqfginlj8W31t7fw4QFZNFakpOA5U531prEgE-MHuqJd58fGts5yrpkRm7vmgEno
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
