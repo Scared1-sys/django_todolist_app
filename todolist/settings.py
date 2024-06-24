@@ -37,7 +37,8 @@ SECRET_KEY = '(qwerty1234###--1234qwerty@@@!!!)^vonobruj0 rt9u9479840'  # Genera
 DEBUG = False
 
 ALLOWED_HOSTS = ['https://django-todolist-app.vercel.app/',
-                  '.vercel.app']
+                  'https://django-todolist-app-git-main-scared1sys-projects.vercel.app/',
+                  'https://django-todolist-mnfh3a5lp-scared1sys-projects.vercel.app/']
 
 
 # Application definition
